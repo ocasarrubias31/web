@@ -1,0 +1,32 @@
+body{
+    background-color: grey;
+}
+.container{
+    display: grid; grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 50px;
+}
+.circle{
+    max-width: 300px;
+    height: auto;
+  
+    }
+
+.desk,.logo,.person {
+max-width: 150px;
+max-height: auto;
+border-radius: 50%;
+border: 20px solid black;
+}
+.logo{
+    display: block;
+    justify-self: center;
+}
+.desk{
+    display: block;
+    justify-self: left;
+}
+.person{
+    display: block;
+    justify-self:right ;
+}
+ 
